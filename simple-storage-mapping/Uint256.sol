@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-contract SimpleStorage {
-    mapping (address => uint256) myBook;
+contract MyContract {
+    mapping (address => uint256) private myBook;
     constructor() {}
 
     function increaseMyBook(uint256 qty) public returns(uint256) {

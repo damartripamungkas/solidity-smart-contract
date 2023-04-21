@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-contract SimpleStorage {
-    mapping (address => string) myData;
+contract MyContract {
+    mapping (address => string) private myData;
     constructor() {}
 
     function setMyData(string memory data) public returns(bool) {
