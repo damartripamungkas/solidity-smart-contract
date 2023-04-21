@@ -1,7 +1,7 @@
 const SimpleStorage = artifacts.require("SimpleStorage");
 
 contract("SimpleStorage", function (accounts) {
-    it("try increase my book", async () => {
+    it("try method increase and decrease", async () => {
         let getQtyMyBook;
         const contractInstance = await SimpleStorage.new(); // will create smart contract and send to blockchain
 
