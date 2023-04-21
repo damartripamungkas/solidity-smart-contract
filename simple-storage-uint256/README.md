@@ -1,4 +1,4 @@
-<h1 align="center">simple-learn</h1>
+<h1 align="center">simple-storage-uint256</h1>
 
 ## About the project
 simple storage uint256
