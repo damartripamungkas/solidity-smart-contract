@@ -1,7 +1,7 @@
-<h1 align="center">solidity-project</h1>
+<h1 align="center">solidity-smart-contract</h1>
 
-## About the project 
-solidity smart contract projects
+## About
+a collection of solidity smart contract codes
 
 ## License
 Licensed under the [MIT License](./LICENSE).
